@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/horizon-pwa-public/sw.js', { scope: '/horizon-pwa-public/' })})}
